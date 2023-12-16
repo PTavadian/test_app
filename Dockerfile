@@ -1,7 +1,7 @@
 FROM python:3.11.1
 
 
-# WORKDIR /
+WORKDIR /app
 
 
 RUN pip install aiogram==2.25.1
